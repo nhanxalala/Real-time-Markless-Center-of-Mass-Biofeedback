@@ -1,0 +1,5 @@
+# Use Python 3.10-3.12 (MediaPipe has no 3.13 wheel yet).
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy==1.26.4
+matplotlib==3.9.2
