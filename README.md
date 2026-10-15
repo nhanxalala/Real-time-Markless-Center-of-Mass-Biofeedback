@@ -31,6 +31,10 @@ pip install -r requirements.txt
 
 ## Run
 
+The example clips (`my_side_clip.mp4`, `my_front_clip.mp4`) are not included
+in this repo; substitute your own recordings. The resulting `.com.csv` and
+`.com.png` outputs from those clips are included for reference.
+
 ```bash
 # self-tests first (no deps beyond numpy) — proves the CoM math
 python test_com.py
@@ -163,5 +167,3 @@ depend on your exact segment-endpoint definition. `validate_table()` only checks
 that masses sum to 1.0 — it cannot verify a coefficient is the *right* one. Confirm
 every coefficient against the original de Leva (1996) / Dempster (1955) tables for
 your endpoint choice before reporting.
-#   R e a l - t i m e - M a r k l e s s - C e n t e r - o f - M a s s - B i o f e e d b a c k  
- 
